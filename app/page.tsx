@@ -21,14 +21,12 @@ export default function Home() {
   <Card
     imageSrc="/AcaiTruck-Thumbnail.png"
     title="THE ACAI TRUCK"
-    description="This is a short description of the first card."
   />
   </Link>
   <Link href={"/thenightshift"}>
   <Card
     imageSrc="/TNS-EP2.jpeg"
     title="SUTD PRODUCTION: THE NIGHT SHIFT"
-    description="This is a short description of the second card."
   />
   </Link>
 
@@ -37,14 +35,12 @@ export default function Home() {
   <Card
     imageSrc="/Mern-Thumbnail.png"
     title="MERN APP DEVELOPMENT"
-    description="This is a short description of the third card."
   />
   </Link>
   <Link href={"/assembly"}>
   <Card
     imageSrc="/Recall-Thumbnail.png"
     title="ASSEMBLY GAME DEVELOPMENT"
-    description="This is a short description of the fourth card."
   />
   </Link>
 
@@ -52,7 +48,6 @@ export default function Home() {
   <Card
     imageSrc="/Butterfly2.jpg"
     title="PHOTOGRAPHY"
-    description="This is a short description of the fourth card."
   />
   </Link>
 </div>
