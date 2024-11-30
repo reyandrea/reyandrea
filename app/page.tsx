@@ -1,6 +1,4 @@
 "use client";
-
-import { useState, useEffect } from "react";
 import Hero from "./components/hero";
 import { Card } from "./components/card";
 import Link from "next/link";
