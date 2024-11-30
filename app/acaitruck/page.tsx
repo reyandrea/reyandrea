@@ -13,7 +13,7 @@ const AcaiTruck: React.FC = () => {
           <h2 className="font-nooksbold text-3xl text-red-bright">THE ACAI TRUCK</h2>
           <p>
             I run The Acai Truck with my co-founder, Mohan. <br />
-            Despite the fact we have 'truck' in our name, we don’t actually have a truck. <br />
+            Despite the fact we have &apos;truck&apos; in our name, we don&apos;t actually have a truck. <br />
             I joined the company and led the development of our first retail product from conception to production. <br />
             My responsibilities mainly involve marketing, graphic design, and operations. <br />
             We initially started by catering to many school events across different educational levels in Singapore. <br />

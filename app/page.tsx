@@ -1,25 +1,13 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import DarkModeToggle from "./components/darkmodetoggle"; // import the DarkModeToggle component
-import Navbar from "./components/Navbar";
-import Image from 'next/image';
 import Hero from "./components/hero";
 import { Card } from "./components/card";
 import Link from "next/link";
 
 
 export default function Home() {
-  const [isDarkMode, setIsDarkMode] = useState(false);
 
-  // Load dark mode preference on mount
-  useEffect(() => {
-    const savedPreference = localStorage.getItem("theme");
-    if (savedPreference === "dark") {
-      setIsDarkMode(true);
-      document.documentElement.classList.add("dark");
-    }
-  }, []);
 
 
   return (

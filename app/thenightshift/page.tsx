@@ -20,10 +20,10 @@ const TNS: React.FC = () => {
             events. It provides insights into campus culture with humor and
             storytelling. For instance, episodes explore topics like favorite
             supper spots near SUTD, student clubs such as the Cat Appreciation
-            Team, and cultural events like Ramadan with the SUTD Muslim Society​.
+            Team, and cultural events like Ramadan with the SUTD Muslim Society&#39;s​.
             <br />
             <br />
-            If you'd like to explore episodes, you can find the series on their
+            If you&apos;d like to explore episodes, you can find the series on their
             official YouTube playlist​.
           </p>
         </div>
