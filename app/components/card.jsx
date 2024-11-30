@@ -78,8 +78,7 @@ const Card = ({ imageSrc, title, description }) => {
         {/* Letter Front */}
         <div className="text-container">
           <div ref={textRef} className="text-content">
-            <h3 className="title font-nooksbold">{title}</h3>
-            <p className="description">{description}</p>
+            <h3 className="text-2xl title font-nooksbold">{title}</h3>
           </div>
         </div>
 

@@ -1,4 +1,4 @@
-'use client'
+'use client';
 import { useEffect, useState } from "react";
 
 export default function DarkModeToggle() {
@@ -31,9 +31,28 @@ export default function DarkModeToggle() {
   return (
     <button
       onClick={toggleDarkMode}
-      className=" rounded-lg transition-colors duration-300"
+      className="rounded-lg transition-transform duration-300 transform hover:scale-110 focus:outline-none"
     >
-      {isDarkMode ? "🌙" : "☀️"}
+      <svg
+        className="svg-rounded-square"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 10 10"
+        width="30"
+        height="30"
+        preserveAspectRatio="xMidYMid meet"
+      >
+        <rect
+          x="1"
+          y="1"
+          width="8"
+          height="8"
+          rx="1.5"
+          ry="1.5"
+          className={`svg-fill-primary-square ${
+            isDarkMode ? "svg-dark-mode-square" : "svg-light-mode-square"
+          }`}
+        />
+      </svg>
     </button>
   );
 }

@@ -35,7 +35,7 @@ export default function Navbar() {
           <Link href="/about">
             <span className="font-nooksbold text-xl hover:text-gray-300 cursor-pointer">ABOUT</span>
           </Link>
-          <Link href="/">
+          <Link href="/AndreaLariozaCV.pdf" target="_blank" rel="noopener noreferrer">
             <span className="font-nooksbold text-xl hover:text-gray-300 cursor-pointer">RESUME</span>
           </Link>
         </div>
@@ -46,9 +46,7 @@ export default function Navbar() {
           <Link href="/">
           
           </Link>
-          <Link href="/contact">
-            <span className="font-nooksbold text-xl hover:text-gray-300 cursor-pointer">CONTACT</span>
-          </Link>
+        
         </div>
       </div>
 

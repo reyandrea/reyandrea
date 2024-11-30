@@ -42,7 +42,7 @@ const AcaiTruck: React.FC = () => {
       {/* Two Images Side by Side Section */}
       <div className="flex flex-col md:flex-row justify-center gap-8 pb-12">
         <Image
-          src="/AcaiTruck-Shop.jpg"
+          src="/AcaiTruck-Shop.JPG"
           alt="The Acai Truck Poster 2"
           width={314}
           height={300}

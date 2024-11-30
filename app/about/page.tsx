@@ -6,7 +6,7 @@ import Image from "next/image";
 const AboutHome: React.FC = () => {
   return (
     <div>
-      <div className="flex flex-col lg:flex-row justify-center p-8 ">
+      <div className="flex flex-col lg:flex-row justify-center p-4 ">
         {/* Left Side: Title and Text */}
         <div className="text-left lg:w-1/3 mb-8 lg:mb-0">
           <h2 className="text-red-bright text-5xl font-nooksbold  tracking-wide ">
@@ -28,16 +28,13 @@ const AboutHome: React.FC = () => {
             <br />
             <p>
               Beyond my studies, I&rsquo;m working on developing a water filtration
-              product designed to support people with sensitive skin, enhancing
-              overall wellness and beauty. On top of that, I&rsquo;m also the
-              co-founder of a café startup, which serves refreshing açaí bowls
+              product designed to support people with sensitive skin while enhancing
+              overall wellness and beauty. On top of that, I also opened a cafe that serves refreshing açaí bowls
               and coffee.
             </p>
             <br />
             <p>
-              I&rsquo;m all about curiosity and capturing life&rsquo;s little moments. When
-              I&rsquo;m not gathering inspiration, you&rsquo;ll find me in Visual Studio
-              bringing ideas to life.
+              I&rsquo;m alwyas out and about learning new things, gathering new inspiration, and capturing life&rsquo;s little moments.
             </p>
             <br />
             <p>
@@ -49,14 +46,14 @@ const AboutHome: React.FC = () => {
         </div>
 
         {/* Right Side: Image Grid */}
-        <div className="lg:w-1/3 grid grid-cols-1 pt-4 gap-4">
+        <div className="lg:w-1/3 grid grid-cols-1 gap-2">
           <div className="flex justify-center">
             <Image
               src="/Profile-Pic-About.jpg"
               alt="The Night Shift Episode 1"
-              width={400}
+              width={404}
               height={300}
-              className="h-auto object-contain pt-8"
+              className="h-auto object-contain"
             />
           </div>
 
@@ -182,43 +179,20 @@ const AboutHome: React.FC = () => {
               className="w-auto"
             />
           </div>
-
-          {/* Images */}
-          <div className="flex justify-center">
-            <Image
-              src="/TNS-EP1.jpeg"
-              alt="The Night Shift Episode 1"
-              width={400}
-              height={300}
-              className="h-auto object-contain"
-            />
-          </div>
-          <div className="flex justify-center">
-            <Image
-              src="/TNS-EP2.jpeg"
-              alt="The Night Shift Episode 2"
-              width={400}
-              height={300}
-              className="h-auto object-contain"
-            />
-          </div>
-          <div className="flex justify-center">
-            <Image
-              src="/TNS-EP3.jpeg"
-              alt="The Night Shift Episode 3"
-              width={400}
-              height={300}
-              className="h-auto object-contain"
-            />
-          </div>
+        
         </div>
       </div>
 
       <div className="text-center">
-        <h2 className="text-red-bright text-2xl font-nooksbold uppercase tracking-wide p-4">
+        <h2 className="text-red-bright text-4xl font-nooksbold uppercase tracking-wide p-4">
           LET&rsquo;S CONNECT
         </h2>
       </div>
+
+
+
+
+      
     </div>
   );
 };

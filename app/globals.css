@@ -7,6 +7,7 @@
   --red-bright: #A81E25;
   --dark-white: #F4EFE8;
   --light-white:#F8F7F1;
+  --dark-blue:#144C80; /* different new blue*/
   overflow-x: hidden;
 }
 
@@ -15,6 +16,7 @@
   --red-dark: #0C3A66;
   --dark-white: #F8F7F1; /* light-white replaces dark-white */
   --light-white: #F4EFE8;
+  --dark-blue: #84191E;
 }
 
 
@@ -55,8 +57,37 @@ body {
   height: 600px
 }
 
+/* Set fill color using CSS */
+.svg-fill-tertiary {
+  fill: var(--dark-white);
+}
+
+.svg-fill-secondary {
+  fill: var(--red-bright);
+}
+
+.svg-fill-primary {
+  fill: var(--dark-white);
+}
+
+.circle-clipped {
+  fill: var(--dark-white);
+}
 
 
 
+.svg-stroke-primary {
+  stroke: var(--red-bright); /* Primary color for stroke */
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 8;
+}
 
+/* Default styles for the square */
+.svg-fill-primary-square {
+  fill: var(--dark-blue); /* Default light mode fill */
+  stroke: var(--dark-white); /* Default light mode stroke */
+  stroke-width: 1; /* Stroke width */
+  transition: all 0.3s ease; /* Smooth transition */
+}
 

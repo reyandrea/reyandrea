@@ -5,6 +5,12 @@ import Image from "next/image";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import "../globals.css";
+import Link from 'next/link';
+import Tiktok from "./tiktok";
+import MailIcon from "./mail";
+import GitHub from "./github";
+import Instagram from "./insta";
+
 
 
 // Register the ScrollTrigger plugin
@@ -122,8 +128,21 @@ export default function Hero() {
       <p className="font-adonis text-xl sm:text-5xl lg:text-2xl dark:text-dark-blue relative sm:top-24 sm:left-16 lg:top-44 lg:left-64 ">
       an aspiring software engineer, <br />
     designer, and content creator</p>
+    <Tiktok size={10} />
 
+
+    <div className="flex gap-2 ml-64 mt-44" >
+      <Tiktok/>
+      <MailIcon/>
+      <GitHub/>
+      <Instagram/>
       </div>
+      </div>
+
+  
+
+
+
 
       
 
