@@ -5,7 +5,7 @@ import { useEffect, useRef, useState } from "react";
 import gsap from "gsap";
 import './card.css';
 
-const Card = ({ imageSrc, title, description }) => {
+const Card = ({ imageSrc, title }) => {
   const letterBackRef = useRef(null);
   const mainImageRef = useRef(null);
   const letterFrontRef = useRef(null);

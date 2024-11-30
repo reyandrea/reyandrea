@@ -5,7 +5,6 @@ import Image from "next/image";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import "../globals.css";
-import Link from 'next/link';
 import Tiktok from "./tiktok";
 import MailIcon from "./mail";
 import GitHub from "./github";
