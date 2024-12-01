@@ -178,6 +178,19 @@ const AboutHome: React.FC = () => {
               height={30}
               className="w-auto"
             />
+            	<Image 
+              src="https://img.shields.io/badge/go-%2300ADD8.svg?&style=for-the-badge&logo=go&logoColor=white" 
+              alt="Golang Badge"
+              width={100}
+              height={30}
+              className="w-auto"
+              />
+              <Image
+              src="https://img.shields.io/badge/amazon%20aws-%23232F3E.svg?&style=for-the-badge&logo=amazon%20aws&logoColor=white"
+              alt="Golang Badge"
+              width={100}
+              height={30}
+              className="w-auto"/>
           </div>
         
         </div>

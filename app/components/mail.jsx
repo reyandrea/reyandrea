@@ -8,7 +8,7 @@ export default function MailIcon({ size = 40 }) {
 
   return (
     <Link
-      href="mailto:example@example.com?subject=Inquiry&body=Please%20provide%20more%20details..."
+      href="mailto:andrealarioza@gmail.com"
       target="_blank"
       rel="noopener noreferrer"
       className='z-50'

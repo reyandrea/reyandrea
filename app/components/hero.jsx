@@ -5,6 +5,7 @@ import Image from "next/image";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import "../globals.css";
+
 import Tiktok from "./tiktok";
 import MailIcon from "./mail";
 import GitHub from "./github";
@@ -93,28 +94,26 @@ export default function Hero() {
 
   return (
     
-    <div className="h-500 bg-dark-white text-red-dark dark:bg-light-white dark:text-dark-blue">
+    <div className="hero-section bg-dark-white text-red-dark dark:bg-light-white dark:text-dark-blue">
       
       <div >
 
     <div>
-    <Image
-      ref={ribbonRef} // Reference to the Blue Ribbon
-      src="/Blue-Ribbon.svg"
-      alt="Blue ribbon"
-      width={10} // Set appropriate width
-      height={500} // Set appropriate height
-      className="absolute z-30 h-auto sm:-top-12 lg:-top-5 sm:-left-32 lg:left-24 sm:w-2/3 lg:w-1/2"
-      />
+    <img
+  ref={ribbonRef} // Reference to the Blue Ribbon
+  src="/Blue-Ribbon.svg"
+  alt="Blue ribbon"
+  className="blue-ribbon"
+/>
+
     <div style={{paddingLeft: "100px"}}>
-    <Image
-      src="/Logo.png"
-      alt="bouquet"
-      width={500} // Set appropriate width
-      height={500} // Set appropriate height
-      className="absolute sm:-top-12 lg:top-64 sm: lg:left-80 sm:w-52 lg:w-48 h-auto"
-      />
-    </div>
+    <img
+  src="/Logo.png"
+  alt="bouquet"
+  className="logo-image"
+/>
+</div>
+
 
       <div style={{paddingLeft: "160px"}}>
       <p className="font-hm text-xl sm:text-5xl lg:text-7xl dark:text-dark-blue relative sm:top-24 sm:left-16 lg:top-40 lg:left-64  ">andrea</p>
@@ -124,13 +123,11 @@ export default function Hero() {
       <p className="font-hm text-xl sm:text-5xl lg:text-7xl dark:text-dark-blue relative sm:top-24 sm:left-16 lg:top-40 lg:left-64">larioza</p>
       </div>
       <div style={{paddingLeft:"230px"}}>
-      <p className="font-adonis text-xl sm:text-5xl lg:text-2xl dark:text-dark-blue relative sm:top-24 sm:left-16 lg:top-44 lg:left-64 ">
+      <p className="font-adonis text-xl sm:text-l lg:text-2xl dark:text-dark-blue relative sm:top-24 sm:left-0 lg:top-44 lg:left-64 ">
       an aspiring software engineer, <br />
     designer, and content creator</p>
-    <Tiktok size={10} />
 
-
-    <div className="flex gap-2 ml-64 mt-44" >
+    <div className="flex gap-2 sm:ml-0 lg:ml-64  sm:mt-24 lg:mt-44" >
       <Tiktok/>
       <MailIcon/>
       <GitHub/>
@@ -146,14 +143,13 @@ export default function Hero() {
       
 
 
-    <Image
-      ref={profileRef}
-      src={"/Profile-Pic.png"}
-      alt="Andrea"
-      width={400} // Set appropriate width
-      height={400} // Set appropriate height
-      className="absolute z-50 sm:-top-12 lg:top-0 sm: lg:right-44  h-auto"
-      />
+      <img
+  ref={profileRef}
+  src={"/test.png"}
+  alt="Andrea"
+  className="profile-responsive-image"
+/>
+
       
       </div>
       </div>

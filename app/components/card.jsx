@@ -10,30 +10,17 @@ const Card = ({ imageSrc, title }) => {
   const mainImageRef = useRef(null);
   const letterFrontRef = useRef(null);
   const textRef = useRef(null);
+  const envelopeRef = useRef(null);
 
   const [isHovered, setIsHovered] = useState(false); // Track hover state
 
   useEffect(() => {
     // Initial GSAP animations
+
     gsap.fromTo(
-      letterBackRef.current,
-      { opacity: 0, x: -100 },
-      { opacity: 1, x: 0, duration: 1, ease: "power2.out" }
-    );
-    gsap.fromTo(
-      mainImageRef.current,
-      { opacity: 0, scale: 0.8 },
-      { opacity: 1, scale: 1, duration: 1, delay: 0.5, ease: "power2.out" }
-    );
-    gsap.fromTo(
-      letterFrontRef.current,
-      { opacity: 0, y: 100 },
-      { opacity: 1, y: 0, duration: 1, delay: 1, ease: "power2.out" }
-    );
-    gsap.fromTo(
-      textRef.current,
+      envelopeRef.current,
       { opacity: 0, y: 20 },
-      { opacity: 1, y: 0, duration: 1, delay: 1.5, ease: "power2.out" }
+      { opacity: 1, y: 0, duration: 1, delay: 0.5 , ease: "power2.out" }
     );
   }, []);
 
@@ -46,7 +33,9 @@ const Card = ({ imageSrc, title }) => {
   }, [isHovered]); // Trigger hover effect when `isHovered` changes
 
   return (
-    <div className="bg-dark-white">
+    <div 
+    ref={envelopeRef}
+    className="bg-dark-white">
       <div
         className="card-container relative"
         onMouseEnter={() => setIsHovered(true)}  // Set hover state to true

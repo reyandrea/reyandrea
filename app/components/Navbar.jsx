@@ -70,28 +70,29 @@ export default function Navbar() {
         </button>
 
         {/* Text next to the hamburger icon */}
-        <Link href="/" className="text-white font-nooks text-lg">Andrea Larioza | Full Stack Dev + Designer</Link>
+        <Link href="/" className="text-white font-nooks text-xl">Andrea Larioza | Full Stack Dev + Designer</Link>
+      </div>
+      <div className='lg:hidden'>
+        <DarkModeToggle
+        />
       </div>
 
       {/* Mobile Menu (visible when hamburger is clicked) */}
       <motion.div
-        className={`lg:hidden ${isMenuOpen ? 'block' : 'hidden'} absolute top-16 left-0 w-full bg-red-bright p-4`}
+        className={`lg:hidden ${isMenuOpen ? 'block' : 'hidden'} absolute top-16 left-0 w-full bg-red-dark p-2`}
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.3 }}
       >
-        <div className="space-y-4"> {/* Added space between links */}
-          <Link href="/" className="block text-dark-white font-nooks text-lg py-2 hover:text-gray-300">
-            PORTFOLIO
+        <div className="space-y-4 pl-10"> {/* Added space between links */}
+          <Link href="/" className="block text-dark-white font-nooksbold text-lg py-1 hover:text-gray-300">
+            WORKS
           </Link>
-          <Link href="/about" className="block text-dark-white font-nooks text-lg py-2 hover:text-gray-300">
+          <Link href="/about" className="block text-dark-white font-nooksbold text-lg py-1 hover:text-gray-300">
             ABOUT
           </Link>
-          <Link href="/" className="block text-dark-white font-nooks text-lg py-2 hover:text-gray-300">
+          <Link href="/" className="block text-dark-white font-nooksbold text-lg py-1 hover:text-gray-300">
             RESUME
-          </Link>
-          <Link href="/contact" className="block text-dark-white font-nooks text-lg py-2 hover:text-gray-300">
-            CONTACT
           </Link>
         </div>
       </motion.div>
