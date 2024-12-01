@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 
-export default function MailIcon({ size = 40 }) {
+export default function MailIcon() {
   return (
     <Link
       href="mailto:andrealarioza@gmail.com"

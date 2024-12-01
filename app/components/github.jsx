@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 
-export default function GitHub({ size = 40 }) {
+export default function GitHub() {
   return (
     <Link
       href="https://github.com/reyandrea"
