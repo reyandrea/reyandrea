@@ -37,7 +37,6 @@ const TNS: React.FC = () => {
             src="/TNS-EP1.jpeg"
             alt="The Night Shift Episode 1"
             width={400}
-            height={300}
             className="h-auto object-contain"
           />
         </div>
@@ -46,7 +45,6 @@ const TNS: React.FC = () => {
             src="/TNS-EP2.jpeg"
             alt="The Night Shift Episode 2"
             width={400}
-            height={300}
             className="h-auto object-contain"
           />
         </div>
@@ -55,7 +53,6 @@ const TNS: React.FC = () => {
             src="/TNS-EP3.jpeg"
             alt="The Night Shift Episode 3"
             width={400}
-            height={300}
             className="h-auto object-contain"
           />
         </div>
