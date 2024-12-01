@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 
-export default function Instagram({ size = 40 }) {
+export default function Instagram() {
   return (
     <Link
       href="https://www.instagram.com/andrealarioza/"
