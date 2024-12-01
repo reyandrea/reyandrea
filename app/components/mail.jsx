@@ -3,20 +3,12 @@
 import Link from 'next/link';
 
 export default function MailIcon({ size = 40 }) {
-  // Default size is set to 40px if no size is passed as a prop
-  const svgSize = `${size}px`;
-
   return (
     <Link
       href="mailto:andrealarioza@gmail.com"
       target="_blank"
       rel="noopener noreferrer"
-      className='z-50'
-      style={{
-        display: 'block',
-        width: svgSize, // Dynamically set width
-        height: svgSize, // Dynamically set height
-      }}
+      className="mail-icon z-50"
     >
       <svg
         className="svg-snoweb svg-theme-light"

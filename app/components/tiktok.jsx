@@ -1,30 +1,19 @@
 "use client";
 
 import Link from 'next/link';
-
-export default function Tiktok({ size = 40 }) {
-  // Default size is set to 40px if no size is passed as a prop
-  const svgSize = `${size}px`;
-
+export default function Tiktok() {
   return (
     <Link
       href="https://www.tiktok.com/@reyaauwuwuuw?is_from_webapp=1&sender_device=pc"
       target="_blank"
       rel="noopener noreferrer"
-      className='z-50'
-      style={{
-        display: 'block',
-        width: svgSize, // Dynamically set width
-        height: svgSize, // Dynamically set height
-      }}
+      className="tiktok-icon"
     >
       <svg
         className="svg-snoweb svg-theme-light"
         preserveAspectRatio="xMidYMid meet"
         viewBox="0 0 100 100"
         xmlns="http://www.w3.org/2000/svg"
-        width="100%" // Makes SVG scale to the link's width and height
-        height="100%" // Makes SVG scale to the link's width and height
       >
         <clipPath id="clip-path-202411-3004-3902-f51c03f0-80b1-428e-a80e-43935cdac75c">
           <circle cx="50" cy="50" r="50" className="circle-clipped" />

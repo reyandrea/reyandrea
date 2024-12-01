@@ -141,7 +141,7 @@ body {
   .blue-ribbon {
     top: 1rem; /* Adjust for medium screens if necessary */
     left: 1rem; /* Adjust for medium screens if necessary */
-    width: 50%; /* Example adjustment for medium screens */
+    width: 55%; /* Example adjustment for medium screens */
   }
 }
 /* Large screens (1025px and up) */
@@ -171,9 +171,9 @@ body {
 /* Medium screens (641px - 1024px) */
 @media (min-width: 641px) and (max-width: 1024px) {
   .logo-image {
-    top: 9rem; /* Adjust for medium screens if necessary */
-    left: 8rem; /* Adjust for medium screens if necessary */
-    width: 8rem; /* Example adjustment for medium screens */
+    top: 10.5rem; /* Adjust for medium screens if necessary */
+    left: 9rem; /* Adjust for medium screens if necessary */
+    width: 7rem; /* Example adjustment for medium screens */
   }
 }
 /* Large screens (1025px and up) */
@@ -206,3 +206,148 @@ body {
 
 
 
+/* Default styles */
+.andrea-text {
+  font-size: 1.25rem; /* text-xl */
+  position: relative;
+  color: var(--red-dark); /* Replace with the appropriate color variable */
+}
+
+.larioza-text {
+  font-size: 1.25rem; /* text-xl */
+  position: relative;
+  color: var(--red-dark);
+}
+
+.description-text {
+  font-size: 1.25rem; /* text-xl */
+  position: relative;
+  color: var(--red-dark);
+}
+
+/* Small screens (max-width: 640px) */
+@media (max-width: 640px) {
+  .andrea-text {
+    font-size: 0.75rem; /* sm:text-5xl */
+    top: 6rem; /* sm:top-24 */
+    left: 4rem; /* sm:left-16 */
+  }
+
+  .larioza-text {
+    font-size: 5rem; /* sm:text-5xl */
+    top: 0rem; /* sm:top-24 */
+    left: 4rem; /* sm:left-16 */
+  }
+
+  .description-text {
+    font-size: 1rem; /* sm:text-l */
+    top: 6rem; /* sm:top-24 */
+    left: 0; /* sm:left-0 */
+  }
+}
+
+/* medium screens (max-width: 640px) */
+@media (min-width: 641px) and (max-width: 1024px){
+  .andrea-text {
+    font-size: 3rem; /* sm:text-5xl */
+    top: 4.5rem; /* sm:top-24 */
+    left: 3.5rem; /* sm:left-16 */
+  }
+
+  .larioza-text {
+    font-size: 3rem; /* sm:text-5xl */
+    top: 3rem; /* sm:top-24 */
+    left: 5rem; /* sm:left-16 */
+  }
+
+  .description-text {
+    font-size: 14px; /* sm:text-l */
+    top: 2.5rem; /* sm:top-24 */
+    left: 4.5rem; /* sm:left-0 */
+    line-height: 16px;
+  }
+}
+
+/* Large screens (1025px and up) */
+@media (min-width: 1025px) {
+  .andrea-text {
+    font-size: 4.5rem; /* lg:text-7xl */
+    top: 9rem; /* lg:top-40 */
+    left: 16rem; /* lg:left-64 */
+  }
+
+  .larioza-text {
+    font-size: 4.5rem; /* lg:text-7xl */
+    top: 7rem; /* lg:top-40 */
+    left: 20rem; /* lg:left-64 */
+  }
+
+  .description-text {
+    font-size: 1.5rem; /* lg:text-2xl */
+    top: 7rem; /* lg:top-44 */
+    left: 20rem; /* lg:left-64 */
+    line-height: 2rem;
+  }
+}
+
+
+.tiktok-icon,
+.instagram-icon,
+.mail-icon,
+.github-icon {
+  display: block;
+  width: 40px;  /* Default size */
+  height: 40px;
+  z-index: 50;
+}
+
+
+
+@media (min-width: 768px) {
+  .tiktok-icon,
+  .instagram-icon,
+  .mail-icon,
+  .github-icon {
+    width: 60px;  /* Medium screen size */
+    height: 60px;
+    z-index: 50;
+  }
+.icons-container{
+  margin-top: 3rem;
+  margin-left: 6rem;
+}
+}
+
+
+
+@media (min-width: 641px) and (max-width: 1024px){
+  .tiktok-icon,
+  .instagram-icon,
+  .mail-icon,
+  .github-icon {
+    width: 28px;  /* Medium screen size */
+    height: auto;
+    z-index: 50;
+  }
+  .icons-container{
+    margin-top: 3rem;
+    margin-left: 6rem;
+  
+  }
+}
+
+@media (min-width: 1024px) {
+  .tiktok-icon,
+  .instagram-icon,
+  .mail-icon,
+  .github-icon {
+    width: 44px;  /* Medium screen size */
+    height: auto;
+    z-index: 50;
+  }
+  .icons-container{
+    margin-top: 7.5rem;
+    margin-left: 20rem;
+  
+  }
+}

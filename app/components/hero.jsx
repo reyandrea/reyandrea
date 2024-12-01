@@ -114,19 +114,15 @@ export default function Hero() {
 </div>
 
 
-      <div style={{paddingLeft: "160px"}}>
-      <p className="font-hm text-xl sm:text-5xl lg:text-7xl dark:text-dark-blue relative sm:top-24 sm:left-16 lg:top-40 lg:left-64  ">andrea</p>
-   
-      </div>
-      <div style={{paddingLeft: "220px", paddingTop: "4px"}}>
-      <p className="font-hm text-xl sm:text-5xl lg:text-7xl dark:text-dark-blue relative sm:top-24 sm:left-16 lg:top-40 lg:left-64">larioza</p>
-      </div>
-      <div style={{paddingLeft:"230px"}}>
-      <p className="font-adonis text-xl sm:text-l lg:text-2xl dark:text-dark-blue relative sm:top-24 sm:left-0 lg:top-44 lg:left-64 ">
-      an aspiring software engineer, <br />
-    designer, and content creator</p>
+<div style={{ paddingLeft: "160px" }}>
+  <p className="andrea-text font-hm text-red-dark">andrea</p>
+  <p className="larioza-text font-hm text-red-dark">larioza</p>
+  <p className="description-text font-adonis">
+    an aspiring software engineer, <br />
+    designer, and content creator
+  </p>
 
-    <div className="flex gap-2 sm:ml-0 lg:ml-64  sm:mt-24 lg:mt-44" >
+    <div className="flex gap-2 icons-container" >
       <Tiktok/>
       <MailIcon/>
       <GitHub/>

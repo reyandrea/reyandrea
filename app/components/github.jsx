@@ -3,20 +3,12 @@
 import Link from 'next/link';
 
 export default function GitHub({ size = 40 }) {
-  // Default size is set to 40px if no size is passed as a prop
-  const svgSize = `${size}px`;
-
   return (
     <Link
       href="https://github.com/reyandrea"
       target="_blank"
       rel="noopener noreferrer"
-      className='z-50'
-      style={{
-        display: 'block',
-        width: svgSize, // Dynamically set width
-        height: svgSize, // Dynamically set height
-      }}
+      className="github-icon z-50"
     >
       <svg
         className="svg-snoweb svg-theme-light"
