@@ -101,8 +101,9 @@ body {
 /* Small screens (max-width: 640px) */
 @media (max-width: 640px) {
   .profile-responsive-image {
-    width: 150px;
-    top: -50px;
+    width: 132px;
+    top: 0px;
+    right: 2.5rem;
   }
 }
 /* Medium screens (641px - 1024px) */
@@ -131,9 +132,9 @@ body {
 /* Small screens (max-width: 640px) */
 @media (max-width: 640px) {
   .blue-ribbon {
-    top: -3rem; /* Equivalent to sm:-top-12 */
-    left: -8rem; /* Equivalent to sm:-left-32 */
-    width: 66.67%; /* Equivalent to sm:w-2/3 */
+    top: 2.2rem; /* Equivalent to sm:-top-12 */
+    left: 12px; /* Equivalent to sm:-left-32 */
+    width: 220px; /* Equivalent to sm:w-2/3 */
   }
 }
 /* Medium screens (641px - 1024px) */
@@ -163,9 +164,9 @@ body {
 /* Small screens (max-width: 640px) */
 @media (max-width: 640px) {
   .logo-image {
-    top: -3rem; /* sm:-top-12 */
-    left: auto; /* Default left, no specific sm:left value provided */
-    width: 13rem; /* sm:w-52 */
+    top: 7rem; /* sm:-top-12 */
+    left: 72px; /* Default left, no specific sm:left value provided */
+    width: 4rem; /* sm:w-52 */
   }
 }
 /* Medium screens (641px - 1024px) */
@@ -188,7 +189,7 @@ body {
 
 @media (max-width: 640px) {
   .hero-section {
-     height: 200px; /* sm:w-52 */
+     height: 300px; /* sm:w-52 */
   }
 }
 /* Medium screens (641px - 1024px) */
@@ -228,21 +229,22 @@ body {
 /* Small screens (max-width: 640px) */
 @media (max-width: 640px) {
   .andrea-text {
-    font-size: 0.75rem; /* sm:text-5xl */
-    top: 6rem; /* sm:top-24 */
-    left: 4rem; /* sm:left-16 */
+    font-size: 1.5rem; /* sm:text-5xl */
+    top: 2.9rem; /* sm:top-24 */
+    left: -50px; /* sm:left-16 */
   }
 
   .larioza-text {
-    font-size: 5rem; /* sm:text-5xl */
-    top: 0rem; /* sm:top-24 */
-    left: 4rem; /* sm:left-16 */
+    font-size: 1.5rem; /* sm:text-5xl */
+    top: 2.2rem; /* sm:top-24 */
+    left: -36px; /* sm:left-16 */
   }
 
   .description-text {
-    font-size: 1rem; /* sm:text-l */
-    top: 6rem; /* sm:top-24 */
-    left: 0; /* sm:left-0 */
+    font-size: 0.5rem; /* sm:text-l */
+    top: 2rem; /* sm:top-24 */
+    left: -38px; /* sm:left-0 */
+    line-height: 1;
   }
 }
 
@@ -303,18 +305,19 @@ body {
 
 
 
-@media (min-width: 768px) {
+@media (max-width: 640px) {
   .tiktok-icon,
   .instagram-icon,
   .mail-icon,
   .github-icon {
-    width: 60px;  /* Medium screen size */
-    height: 60px;
+    width: 16px;  /* Medium screen size */
+    height: auto;
     z-index: 50;
   }
 .icons-container{
-  margin-top: 3rem;
-  margin-left: 6rem;
+  margin-top: 36px;
+  margin-left: -40px;
+  gap: 4px;
 }
 }
 

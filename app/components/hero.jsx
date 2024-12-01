@@ -35,7 +35,7 @@ export default function Hero() {
           end: "center center", // End when ribbon's top reaches the center of the viewport
           scrub: 1, // Smooth interpolation during scroll
           toggleActions: "play none reverse none", // Ensure smooth reverse when scrolling up
-          markers: true, // Debug markers (remove for production)
+          markers: false, // Debug markers (remove for production)
         },
       });
     }
@@ -51,7 +51,7 @@ export default function Hero() {
           end: "bottom bottom", // End when ribbon's center reaches the center of the viewport
           scrub: 1, // Smooth interpolation during scroll
           toggleActions: "play none reverse none", // Ensure smooth reverse when scrolling up
-          markers: true, // Debug markers (remove for production)
+          markers: false, // Debug markers (remove for production)
         },
       });
     }

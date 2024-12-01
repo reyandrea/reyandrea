@@ -34,11 +34,9 @@ export default function DarkModeToggle() {
       className="rounded-lg transition-transform duration-300 transform hover:scale-110 focus:outline-none"
     >
       <svg
-        className="svg-rounded-square"
+        className="svg-rounded-square sm:w-4 sm:h-4 md:w-7 md:h-7 lg:w-7 lg:h-7"
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 10 10"
-        width="30"
-        height="30"
         preserveAspectRatio="xMidYMid meet"
       >
         <rect
