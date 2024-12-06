@@ -1,57 +1,42 @@
 "use client";
 import Hero from "./components/hero";
-import { Card } from "./components/card";
+import { Card } from "./components/card_old";
 import Link from "next/link";
+import OverlapComponent from "./components/text"
 
 
 export default function Home() {
+
+  const cardData = [
+    { imageSrc: "/AcaiTruck-Thumbnail.png", title: "THE ACAI TRUCK", href: "/acaitruck" },
+    { imageSrc: "/TNS-EP2.jpeg", title: "SUTD PRODUCTION: THE NIGHT SHIFT", href: "/thenightshift" },
+    { imageSrc: "/Mern-Thumbnail.png", title: "MERN APP DEVELOPMENT", href: "/mern" },
+    { imageSrc: "/Recall-Thumbnail.png", title: "ASSEMBLY GAME DEVELOPMENT", href: "/assembly" },
+    { imageSrc: "/Butterfly2.jpg", title: "PHOTOGRAPHY", href: "/photography" },
+  ];
 
 
 
   return (
     
-    <div className="h-max bg-dark-white text-red-dark dark:bg-light-white dark:text-dark-blue">
+    <div className="w-screen bg-dark-white text-red-dark dark:bg-light-white dark:text-dark-blue">
       
       <Hero/>
-      
-      <h1 className="text-center font-nooksbold text-3xl dark:text-dark-blue">MY WORKS</h1>
-      <div className="flex flex-wrap justify-center  gap-y-24 gap-x-12 p-8">
-  {/* First row */}
-  <Link href="/acaitruck">
-  <Card
-    imageSrc="/AcaiTruck-Thumbnail.png"
-    title="THE ACAI TRUCK"
-  />
-  </Link>
-  <Link href={"/thenightshift"}>
-  <Card
-    imageSrc="/TNS-EP2.jpeg"
-    title="SUTD PRODUCTION: THE NIGHT SHIFT"
-  />
-  </Link>
 
-  {/* Second row */}
-  <Link href={"/mern"}>
-  <Card
-    imageSrc="/Mern-Thumbnail.png"
-    title="MERN APP DEVELOPMENT"
-  />
-  </Link>
-  <Link href={"/assembly"}>
-  <Card
-    imageSrc="/Recall-Thumbnail.png"
-    title="ASSEMBLY GAME DEVELOPMENT"
-  />
-  </Link>
+      <div className="text-center font-nooksbold text-5xl pt-12 pb-8">MY WORKS</div>
 
-  <Link href={"/photography"}>
-  <Card
-    imageSrc="/Butterfly2.jpg"
-    title="PHOTOGRAPHY"
-  />
-  </Link>
-</div>
-      
+      <div className="flex w-screen justify-center items-center">
+      <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 gap-y-8 sm:gap-x-12 sm:gap-y-14 lg:gap-x-16 lg:gap-y-20">
+        {cardData.map((card, index) => (
+          <Link key={index} href={card.href}>
+            <OverlapComponent
+              imageSrc={card.imageSrc}
+              title={card.title}
+            />
+          </Link>
+        ))}
+      </div>
+      </div>
     </div>
   );
 }

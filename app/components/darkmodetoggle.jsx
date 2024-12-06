@@ -31,12 +31,14 @@ export default function DarkModeToggle() {
   return (
     <button
       onClick={toggleDarkMode}
-      className="rounded-lg transition-transform duration-300 transform hover:scale-110 focus:outline-none"
+      className="rounded-lg p-2 transition-transform duration-300 transform hover:scale-110 focus:outline-none"
     >
       <svg
-        className="svg-rounded-square sm:w-4 sm:h-4 md:w-7 md:h-7 lg:w-7 lg:h-7"
+        className="svg-rounded-square"
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 10 10"
+        width="30"
+        height="30"
         preserveAspectRatio="xMidYMid meet"
       >
         <rect
@@ -46,7 +48,7 @@ export default function DarkModeToggle() {
           height="8"
           rx="1.5"
           ry="1.5"
-          className={`svg-fill-primary-square ${
+          className={   `svg-fill-primary-square ${
             isDarkMode ? "svg-dark-mode-square" : "svg-light-mode-square"
           }`}
         />

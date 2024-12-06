@@ -70,7 +70,7 @@ export default function Navbar() {
         </button>
 
         {/* Text next to the hamburger icon */}
-        <Link href="/" className="text-white font-nooks sm:text-base md:text-xl">Andrea Larioza</Link>
+        <Link href="/" className="text-white font-nooks sm:text-xl">Andrea Larioza</Link>
       </div>
       <div className='lg:hidden'>
         <DarkModeToggle
@@ -93,7 +93,7 @@ export default function Navbar() {
           </Link>
           <Link href="/" className="block text-dark-white font-nooksbold sm:text-sm md:text-lg py-1 hover:text-gray-300">
             RESUME
-          </Link>
+          </Link> 
         </div>
       </motion.div>
     </nav>

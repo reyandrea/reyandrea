@@ -21,6 +21,7 @@
 
 
 
+
 /* For Webkit-based browsers (Chrome, Safari, etc.) */
 ::-webkit-scrollbar {
   display: none; /* Hides the scrollbar */
@@ -38,12 +39,6 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.rectangle {
-  width: 475px; /* Set the width */
-  height: 350px; /* Set the height */
-  background-color: var(--light-white); /* Set the background color */ /* Optional: add a border */
-  border-radius: 0px; /* Optional: add rounded corners */
-}
 
 
 .top-120 {
@@ -252,8 +247,8 @@ body {
 @media (min-width: 641px) and (max-width: 1024px){
   .andrea-text {
     font-size: 3rem; /* sm:text-5xl */
-    top: 4.5rem; /* sm:top-24 */
-    left: 3.5rem; /* sm:left-16 */
+    top: 4rem; /* sm:top-24 */
+    left: 3rem; /* sm:left-16 */
   }
 
   .larioza-text {
@@ -354,3 +349,4 @@ body {
   
   }
 }
+

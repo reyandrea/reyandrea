@@ -40,10 +40,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" className="dark">
       <head>
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
-        />
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2"/>
         <Script
           src="https://www.instagram.com/embed.js"
           strategy="afterInteractive" // Load script after the page is interactive

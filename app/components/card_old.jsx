@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
 import gsap from "gsap";
-import './card.css';
+import './card_old.css';
 
 const Card = ({ imageSrc, title }) => {
   const letterBackRef = useRef(null);
