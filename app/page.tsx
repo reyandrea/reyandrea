@@ -1,6 +1,5 @@
 "use client";
 import Hero from "./components/hero";
-import { Card } from "./components/card_old";
 import Link from "next/link";
 import OverlapComponent from "./components/text"
 
