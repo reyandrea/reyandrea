@@ -46,7 +46,7 @@ const AcaiTruck: React.FC = () => {
           alt="The Acai Truck Poster 2"
           width={314}
           height={300}
-          className="h-auto object-contain shadow-md"
+          className="h-auto object-contain"
         />
         <Image
           src="/AcaiTruck-P4.png"
