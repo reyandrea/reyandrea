@@ -27,14 +27,11 @@ const AboutHome: React.FC = () => {
             </p>
             <br />
             <p>
-              Beyond my studies, I&rsquo;m working on developing a water filtration
-              product designed to support people with sensitive skin while enhancing
-              overall wellness and beauty. On top of that, I also opened a cafe that serves refreshing açaí bowls
-              and coffee.
+              Beyond my studies, I&rsquo;m currently working on leather crafting and making my own cat themed wallet. 
             </p>
             <br />
             <p>
-              I&rsquo;m alwyas out and about learning new things, gathering new inspiration, and capturing life&rsquo;s little moments.
+              I&rsquo;m always out and about learning new things, gathering new inspiration, and capturing life&rsquo;s little moments.
             </p>
             <br />
             <p>
@@ -171,23 +168,16 @@ const AboutHome: React.FC = () => {
               height={30}
               className="w-auto"
             />
-            <Image
-              src="https://img.shields.io/badge/swift-%23FA7343.svg?&style=for-the-badge&logo=swift&logoColor=white"
-              alt="Swift Badge"
-              width={100}
-              height={30}
-              className="w-auto"
-            />
-            	<Image 
-              src="https://img.shields.io/badge/go-%2300ADD8.svg?&style=for-the-badge&logo=go&logoColor=white" 
-              alt="Golang Badge"
-              width={100}
-              height={30}
-              className="w-auto"
-              />
               <Image
               src="https://img.shields.io/badge/amazon%20aws-%23232F3E.svg?&style=for-the-badge&logo=amazon%20aws&logoColor=white"
-              alt="Golang Badge"
+              alt="AWS Badge"
+              width={100}
+              height={30}
+              className="w-auto"/>
+
+              <Image
+              src="https://img.shields.io/badge/Electron-191970?style=for-the-badge&logo=Electron&logoColor=white"
+              alt="Electron Badge"
               width={100}
               height={30}
               className="w-auto"/>

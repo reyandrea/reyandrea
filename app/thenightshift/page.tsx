@@ -8,7 +8,7 @@ const TNS: React.FC = () => {
     <div className="flex flex-col lg:flex-row justify-center p-8 ">
       {/* Left Side: Title and Text */}
       <div className="text-left lg:w-1/3 mb-8 lg:mb-0">
-        <h2 className="text-red-bright text-5xl font-nooksbold uppercase tracking-wide ">
+        <h2 className="text-red-bright text-4xl font-nooksbold uppercase tracking-wide ">
           The Night Shift
         </h2>
         <div className="font-adonis text-xl leading-relaxed pt-4">
@@ -42,7 +42,7 @@ const TNS: React.FC = () => {
       </div>
 
       {/* Right Side: Image Grid */}
-      <div className="lg:w-1/3 grid grid-cols-1 pt-4 gap-4">
+      <div className="lg:w-1/3 grid grid-cols-1 gap-4">
         {/* Images */}
         <div className="flex justify-center">
           <Image

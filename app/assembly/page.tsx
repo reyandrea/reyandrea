@@ -9,7 +9,7 @@ const Assembly: React.FC = () => {
     <div className="flex flex-col lg:flex-row justify-center p-8 ">
       {/* Left Side: Title and Text */}
       <div className="text-left lg:w-1/3 mb-8 lg:mb-0 pr-10">
-        <h2 className="text-red-bright text-5xl font-nooksbold uppercase tracking-wide ">
+        <h2 className="text-red-bright text-4xl font-nooksbold uppercase tracking-wide ">
           ASSEMBLY GAME DEVELOPMENT
         </h2>
         <div className="font-adonis text-xl leading-relaxed pt-4">
