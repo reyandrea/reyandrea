@@ -13,17 +13,17 @@ const Mern: React.FC = () => {
         </h2>
         <div className="font-adonis text-xl leading-relaxed pt-4">
           <p>
-          For this project, we developed a specialized Resource Management System (RMS) designed to optimize the presales workflow for a technology firm. 
-          The platform leverages a MERN (MongoDB, Express.js, React, Node.js) architecture to handle complex relational data within a non-relational database structure
-          specifically managing the tri-factor relationship between client demand, resource availability, and trainer expertise.
+          For this project, we developed a specialized Resource Management System designed to optimize the presales workflow for a technology firm. 
+          The platform leverages a MongoDB, Express.js, React, Node.js architecture to handle complex relational data within a non–relational database structure
+          specifically managing the tri–factor relationship between client demand, resource availability, and trainer expertise.
           <br />
           <br />
         The platform serves three distinct user ecosystems <br /><br />
 
 <div className="mb-4"><span className="text-dark-blue">Client Interface: </span> A seamless portal for submitting detailed workshop requests, including technical requirements and geographical data. </div>
 
-<div className="mb-4"><span className="text-dark-blue">Admin Center: </span> A centralized dashboard for resource allocation, featuring dynamic scheduling and real-time trainer availability tracking. 
-An integrated reporting tool providing high-level insights into trainer utilization rates, workshop trends, and projected deal potential. </div>
+<div className="mb-4"><span className="text-dark-blue">Admin Center: </span> A centralized dashboard for resource allocation, featuring dynamic scheduling and real–time trainer availability tracking. 
+It also includes a dashboard providing high–level insights into trainer utilization rates and workshop trends. </div>
 
 <div className="mb-4"><span className="text-dark-blue">Trainer Management: </span> A dedicated workspace for trainers to manage their assigned sessions and update availability. </div>   
           </p>
@@ -54,11 +54,9 @@ An integrated reporting tool providing high-level insights into trainer utilizat
             <div className="mb-4"><span className="text-dark-blue">Frontend Architecture: </span> 
           Engineered a responsive ReactJS SPA utilizing functional components, hooks for state management, and AJAX for real-time, asynchronous data synchronization.</div>
 
-          <div className="mb-4"><span className="text-dark-blue">Backend and API Design: </span> Developed a RESTful API via Node.js/Express.js, featuring custom middleware for multi-tier authentication (Client, Admin, Trainer) and secure request routing.</div>
+          <div className="mb-4"><span className="text-dark-blue">Backend and API Design: </span> Developed a RESTful API via Node.js, Express.js</div>
 
-          <div className="mb-4"><span className="text-dark-blue">Database Schema: </span> Architected a scalable MongoDB schema optimized for high-read/write performance, structured to cross-reference trainer competencies with complex workshop requirements. .</div>
-
-          <div className="mb-4"><span className="text-dark-blue">Data Analytics: </span> Integrated an automated dashboard to aggregate raw data into actionable KPIs, including trainer utilization metrics and deal potential forecasting.</div>
+          <div className="mb-4"><span className="text-dark-blue">Database Schema: </span> Architected a scalable MongoDB schema optimized for high-read and write performance, structured to cross–reference trainer competencies with complex workshop requirements.</div>
         </p>
         </div>
       </div>

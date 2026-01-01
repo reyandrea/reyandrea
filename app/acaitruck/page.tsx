@@ -49,10 +49,10 @@ const AcaiTruck: React.FC = () => {
 
 
                   <p className="lg:w-7/10">
-                  As Co-Founder and Managing Partner, I have spearheaded the strategic evolution of our brand from a service-oriented model into a scalable F&B enterprise. 
-                  By overseeing the end-to-end product lifecycle—from R&D and logistics to a successful retail debut at Pick & Go—I facilitated a pivotal shift toward a product-based business. 
+                  As Co-Founder and Managing Partner, I have spearheaded the strategic evolution of our brand from a service-oriented model into a scalable FnB enterprise. 
+                  By overseeing the end-to-end product lifecycle—from RnD and logistics to a successful retail debut at Pick & Go. I facilitated a pivotal shift toward a product-based business. 
                   Building on this retail momentum, I led the development of our flagship cafe, managing everything from site selection to menu engineering to optimize high-margin revenue streams
-                  and deepen customer lifetime value. Driven by a commitment to "out-of-the-box" retail, I further pushed the boundaries of the industry by launching Singapore’s first acai vending machine concept. 
+                  and deepen customer lifetime value. Driven by a commitment to out-of-the-box" retail, I further pushed the boundaries of the industry by launching Singapore’s first acai vending machine concept. 
                   This innovation reflects my focus on F&B automation and low-overhead scalability. This experience taught me the "founder’s mindset"—thriving in fast-paced environments, managing shifting priorities, and building a brand from the ground up.
 
                 </p>
@@ -67,7 +67,7 @@ const AcaiTruck: React.FC = () => {
                 small beginnings: events
               </h2>
                   <p className="lg:w-7/10">
-                  We started with out events catering service, providing acai bowls for school events and corporate functions. 
+                  We started out with events catering service, providing acai bowls for school events and corporate functions. 
                   This allowed us to build a customer base and refine our product offerings based on direct feedback.
                   </p>
               </div>
@@ -77,7 +77,7 @@ const AcaiTruck: React.FC = () => {
               <div className="grid grid-cols-7 gap-4 pt-4 ">
                 <div className="col-span-3">
                 <Image
-                src="/AcaiTruck-setup.JPG"
+                src="/AcaiTruck-setup.jpg"
                 alt="The Acai Truck Poster 2"
                 width={450}
                 height={300}
@@ -272,7 +272,7 @@ By strategically integrating high-margin offerings like specialty coffee and waf
               <div className="grid grid-cols-3 gap-4 pt-4 ">
                 <div className="col-span-1">
                 <Image
-                src="/AcaiTruck-vending.JPG"
+                src="/AcaiTruck-vending.jpg"
                 alt="The Acai Truck Poster 2"
                 width={300}
                 height={300}
