@@ -3,6 +3,7 @@
 import React from "react";
 import Image from "next/image";
 
+
 const Mern: React.FC = () => {
   return (
     <div className="pt-8">

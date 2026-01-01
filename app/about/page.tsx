@@ -2,6 +2,10 @@
 
 import React from "react";
 import Image from "next/image";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faTiktok, faInstagram, faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
+
+
 
 const AboutHome: React.FC = () => {
   return (
@@ -10,7 +14,15 @@ const AboutHome: React.FC = () => {
         {/* Left Side: Title and Text */}
         <div className="text-left lg:w-1/3 mb-8 lg:mb-0">
           <h2 className="text-red-bright text-5xl font-nooksbold  tracking-wide ">
-            All About Andrea
+            All About Andrea <br/><a href="https://www.tiktok.com/@reyaauwuwuuw" target="_blank" rel="noopener noreferrer">
+      <FontAwesomeIcon icon={faTiktok} style={{ color: "#000000", fontSize: "32px", paddingBottom:"4px" }} />
+    </a> | <a href="https://www.instagram.com/andrealarioza/" target="_blank" rel="noopener noreferrer">
+      <FontAwesomeIcon icon={faInstagram} style={{ color: "#000000", fontSize: "32px", paddingBottom:"4px" }} />
+    </a> | <a href="https://www.linkedin.com/in/andrea-larioza/" target="_blank" rel="noopener noreferrer">
+      <FontAwesomeIcon icon={faLinkedinIn} style={{ color: "#000000", fontSize: "32px", paddingBottom:"4px" }} />
+    </a> | <a href="https://github.com/reyandrea" target="_blank" rel="noopener noreferrer">
+      <FontAwesomeIcon icon={faGithub} style={{ color: "#000000", fontSize: "32px", paddingBottom:"4px" }} />
+    </a>
           </h2>
           <div className="font-adonis text-xl leading-relaxed pt-4">
             <p>

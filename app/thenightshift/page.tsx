@@ -2,6 +2,9 @@
 
 import React from "react";
 import Image from "next/image";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faTiktok, faInstagram, faGithub, faYoutube } from '@fortawesome/free-brands-svg-icons';
+
 
 const TNS: React.FC = () => {
   return (
@@ -9,7 +12,9 @@ const TNS: React.FC = () => {
       {/* Left Side: Title and Text */}
       <div className="text-left lg:w-1/3 mb-8 lg:mb-0">
         <h2 className="text-red-bright text-4xl font-nooksbold uppercase tracking-wide ">
-          The Night Shift
+          The Night Shift | <a href="https://youtube.com/playlist?list=PLaWOuRIztD2GqnPc68BqNR2QOnqqu-_OE&si=ZvX2oWqmjZrgrFYVhttps://youtube.com/playlist?list=PLaWOuRIztD2GqnPc68BqNR2QOnqqu-_OE&si=ZvX2oWqmjZrgrFYV" target="_blank" rel="noopener noreferrer">
+  <FontAwesomeIcon icon={faYoutube} style={{ color: "#FF0000", fontSize: "24px", paddingBottom:"4px" }} />
+</a>
         </h2>
         <div className="font-adonis text-xl leading-relaxed pt-4">
           <p>

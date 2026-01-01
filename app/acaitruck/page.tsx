@@ -2,11 +2,16 @@
 
 import Image from "next/image";
 import React from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faTiktok, faInstagram, faGithub } from '@fortawesome/free-brands-svg-icons';
+
 
 const AcaiTruck: React.FC = () => {
   return (
+    
 
     <div className=" p-8 ">
+      
 
       
       {/* intro Content Section */}
@@ -14,7 +19,11 @@ const AcaiTruck: React.FC = () => {
             {/* Left Side: Title and Text */}
             <div className="text-left lg:w-1/2 mb-8 lg:mb-0">
               <h2 className="text-red-bright text-4xl font-nooksbold uppercase tracking-wide ">
-                The Acai Truck
+                The Acai Truck | <a href="https://www.tiktok.com/@theacaitrucksg" target="_blank" rel="noopener noreferrer">
+      <FontAwesomeIcon icon={faTiktok} style={{ color: "#000000", fontSize: "24px", paddingBottom:"4px" }} />
+    </a> | <a href="https://www.instagram.com/theacaitrucksg/" target="_blank" rel="noopener noreferrer">
+      <FontAwesomeIcon icon={faInstagram} style={{ color: "#000000", fontSize: "24px", paddingBottom:"4px" }} />
+    </a>
               </h2>
               <div className="font-adonis text-xl leading-relaxed pt-4">
                 <p>

@@ -12,6 +12,9 @@ export default function Navbar() {
   // Toggle the mobile menu
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
 
+  // to close the menu
+  const closeMenu = () => setIsMenuOpen(false);
+
   return (
     <nav className="text-dark-white bg-red-bright p-4 flex items-center justify-between sticky top-0 z-40">
       <div className="hidden lg:flex items-center w-full">
@@ -85,13 +88,13 @@ export default function Navbar() {
         transition={{ duration: 0.3 }}
       >
         <div className="space-y-4 pl-10"> {/* Added space between links */}
-          <Link href="/" className="block text-dark-white font-nooksbold sm:text-sm md:text-lg py-1 hover:text-gray-300">
+          <Link href="/" onClick={closeMenu} className="block text-dark-white font-nooksbold sm:text-sm md:text-lg py-1 hover:text-gray-300">
             WORKS
           </Link>
-          <Link href="/about" className="block text-dark-white font-nooksbold sm:text-sm md:text-lg py-1 hover:text-gray-300">
+          <Link href="/about" onClick={closeMenu} className="block text-dark-white font-nooksbold sm:text-sm md:text-lg py-1 hover:text-gray-300">
             ABOUT
           </Link>
-          <Link href="/" className="block text-dark-white font-nooksbold sm:text-sm md:text-lg py-1 hover:text-gray-300">
+          <Link href="/AndreaLariozaCV.pdf" onClick={closeMenu} target="_blank" rel="noopener noreferrer" className="block text-dark-white font-nooksbold sm:text-sm md:text-lg py-1 hover:text-gray-300">
             RESUME
           </Link> 
         </div>
