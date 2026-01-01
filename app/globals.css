@@ -26,7 +26,7 @@
   }
 .small-break { 
     display: block; 
-    margin-top: 0.5em; /* Adjust this value for the desired space */
+    height: 5px; /* Adjust this value for the desired space */
   }
 
 /* For Webkit-based browsers (Chrome, Safari, etc.) */

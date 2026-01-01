@@ -334,13 +334,25 @@ By strategically integrating high-margin offerings like specialty coffee and waf
       
 
       {/* Section Title */}
-      <div className="text-center">
-        <h2 className="text-2xl font-semibold uppercase tracking-wide p-4">
+      <div className="flex flex-col lg:flex-row justify-center pt-8">
+          <div className="lg:w-8/12 font-adonis text-xl leading-relaxed pt-0 text-center">
+          <h2 className="text-red-bright text-2xl font-nooksbold uppercase tracking-wide ">
           Our Events
         </h2>
       </div>
+      </div>
+
+      <div className="flex flex-col lg:flex-row justify-center pt-8">
+          <div className="lg:w-8/12 font-adonis text-xl leading-relaxed pt-0 text-center">
+          <h2 className="text-red-bright text-2xl font-nooksbold uppercase tracking-wide ">
+                Our partners
+              </h2>
+              </div>
+              </div>
 
       {/* Add content for events if needed */}
+
+      <div className="pb-[10vh]"></div>
       
     </div>
 
