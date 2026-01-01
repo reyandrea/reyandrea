@@ -7,196 +7,125 @@ const AcaiTruck: React.FC = () => {
   return (
 
     <div>
-      <div className="flex justify-center items-center p-4">
-  {/* Stack vertically on mobile (default), 2 columns on medium screens and up */}
-  <div className="grid grid-cols-1 md:grid-cols-2 gap-8 pt-4 max-w-4xl items-center">
-    
-    {/* Text scales based on viewport width (text-base to text-lg) */}
-    <p className="text-base md:text-lg leading-relaxed order-2 md:order-1">
-      I run The Acai Truck with my co-founder, Mohan. <br />
-      Despite the fact we have &apos;truck&apos; in our name, we don&apos;t actually have a truck. <br />
-      I joined the company and led the development of our first retail product from conception to production. <br />
-      My responsibilities mainly involve marketing, graphic design, and operations. <br />
-      We initially started by catering to many school events across different educational levels in Singapore. <br />
-      Now we have a small cafe that not only sells acai bowls but also coffee and waffles.
-    </p>
 
-    {/* Image container handles scaling */}
-    <div className="flex justify-center order-1 md:order-2">
-      <Image
-        src="/AcaiTruck-Logo.png"
-        alt="The Acai Truck"
-        width={400} // Increased base size for scaling
-        height={400}
-        className="w-full h-auto max-w-[250px] md:max-w-full object-contain"
-        priority
-      />
-    </div>
-    
-  </div>
-</div>
-      <div className="flex justify-center items-center p-4">
-
-              <div className="grid grid-cols-2 gap-8 pt-4 ">
-
+      
+      {/* intro Content Section */}
+      <div className="flex flex-col lg:flex-row justify-center p-8 ">
+            {/* Left Side: Title and Text */}
+            <div className="text-left lg:w-1/2 mb-8 lg:mb-0">
+              <h2 className="text-red-bright text-4xl font-nooksbold uppercase tracking-wide ">
+                The Acai Truck
+              </h2>
+              <div className="font-adonis text-xl leading-relaxed pt-4">
                 <p>
-            I run The Acai Truck with my co-founder, Mohan. <br />
-            Despite the fact we have &apos;truck&apos; in our name, we don&apos;t actually have a truck. <br />
-            I joined the company and led the development of our first retail product from conception to production. <br />
-            My responsibilities mainly involve marketing, graphic design, and operations. <br />
-            We initially started by catering to many school events across different educational levels in Singapore. <br />
-            Now we have a small cafe that not only sells acai bowls but also coffee and waffles.
-          </p>
+                  The Acai Truck SG is a homegrown FnB startup that evolved from an event 
+          catering service for schools and business into a permanent retail cafe and vending machine. 
+          Despite the “truck” in our name, we don’t actually operate on a truck. 
+          Regardless of the means, we aim to bring affordable acai bowls to everyone
 
-          <Image
-            src="/AcaiTruck-Logo.png"
-            alt="The Acai Truck"
-            width={250}
-            height={300}
-            className="h-auto"
-          />
+                </p>
+              </div>
+            </div>
+      
+            {/* Right Side: Image Grid */}
+            <div className="lg:w-1/5 grid grid-cols-1 pt-0 gap-4">
+              {/* Images */}
+              <div className="flex justify- align-top">
+                <Image
+                  src="/AcaiTruck-Logo.png"
+                  alt="The Acai Truck"
+                  width={250} // Increased base size for scaling
+                  height={200}
+                  className="align-top h-auto object-contain"
+                />
+              </div>
+            </div>
+          </div>
 
+          
+      {/* executive summary Content Section */}
+          <div className="flex flex-col lg:flex-row justify-center">
+          <div className="lg:w-8/12 font-adonis text-xl leading-relaxed pt-0 ">
+
+
+                  <p className="lg:w-7/10">
+                  As Co-Founder and Managing Partner, I have spearheaded the strategic evolution of our brand from a service-oriented model into a scalable F&B enterprise. 
+                  By overseeing the end-to-end product lifecycle—from R&D and logistics to a successful retail debut at Pick & Go—I facilitated a pivotal shift toward a product-based business. 
+                  Building on this retail momentum, I led the development of our flagship cafe, managing everything from site selection to menu engineering to optimize high-margin revenue streams
+                  and deepen customer lifetime value. Driven by a commitment to "out-of-the-box" retail, I further pushed the boundaries of the industry by launching Singapore’s first acai vending machine concept. 
+                  This innovation reflects my focus on F&B automation and low-overhead scalability. This experience taught me the "founder’s mindset"—thriving in fast-paced environments, managing shifting priorities, and building a brand from the ground up.
+
+                </p>
+              </div>
+              </div>
+
+
+      {/* beginning Content Section */}
+              <div className="flex flex-col lg:flex-row justify-center pt-8">
+          <div className="lg:w-8/12 font-adonis text-xl leading-relaxed pt-0 ">
+          <h2 className="text-red-bright text-2xl font-nooksbold uppercase tracking-wide ">
+                small beginnings: events
+              </h2>
+                  <p className="lg:w-7/10">
+                  We started with out events catering service, providing acai bowls for school events and corporate functions. 
+                  This allowed us to build a customer base and refine our product offerings based on direct feedback.
+                  </p>
+              </div>
+              </div>
+
+        <div className="flex justify-center items-center p-4">
+              <div className="grid grid-cols-7 gap-4 pt-4 ">
+                <div className="col-span-3">
+                <Image
+                src="/AcaiTruck-setup.JPG"
+                alt="The Acai Truck Poster 2"
+                width={450}
+                height={300}
+                className="h-auto shadow-md col-span-2"
+                />
+                </div>
+                <div className="col-span-2">
+                <Image
+                src="/AcaiTruck-event1.jpg"
+                alt="The Acai Truck Poster 3"
+                height={200}
+                width={300}
+                className="h-auto object-contain"
+                />
+                </div>
+                <div className="col-span-2">
+                <Image
+                src="/AcaiTruck-event2.jpg"
+                alt="The Acai Truck Poster 3"
+                height={200}
+                width={300}
+                className="h-auto object-contain"
+                />
+                </div>
                 
               </div>
             </div>
 
 
-      {/* Main Content Section */}
-      <div className="flex flex-col md:flex-row justify-center gap-8 p-8">
-        {/* Text Section */}
-        <div className="font-adonis text-xl leading-relaxed lg:w-3/5">
-          <h2 className="font-nooksbold text-3xl text-red-bright">THE ACAI TRUCK</h2>
-          <p>
-            I run The Acai Truck with my co-founder, Mohan. <br />
-            Despite the fact we have &apos;truck&apos; in our name, we don&apos;t actually have a truck. <br />
-            I joined the company and led the development of our first retail product from conception to production. <br />
-            My responsibilities mainly involve marketing, graphic design, and operations. <br />
-            We initially started by catering to many school events across different educational levels in Singapore. <br />
-            Now we have a small cafe that not only sells acai bowls but also coffee and waffles.
-          </p>
-        </div>
-        {/* Image Section */}
-        <div className="lg:w-1/3 lg:-top-40">
-          <Image
-            src="/AcaiTruck-Logo.png"
-            alt="The Acai Truck"
-            width={250}
-            height={300}
-            className="h-auto"
-          />
-        </div>
-      </div>
+      {/* pick n go Content Section */}
 
-      {/* Section Title */}
-      <div className="text-center">
-        <h2 className="text-red-bright text-2xl font-nooksbold uppercase tracking-wide p-4">
-          Our Store Front
-        </h2>
-      </div>
+      <div className="flex flex-col lg:flex-row justify-center pt-8">
+          <div className="lg:w-8/12 font-adonis text-xl leading-relaxed pt-0 ">
+          <h2 className="text-red-bright text-2xl font-nooksbold uppercase tracking-wide ">
+                Our First retail product
+              </h2>
+                  <p className="lg:w-7/10">
+I drove our expansion by launching our first retail product line. I managed the product lifecycle— from R&D and Standard Operating Procedures to marketing and logistics. 
+By recognizing a growing demand for accessibility and end-to-end management, this led to a seamless launch into the retail market at Pick & Go.
+By leading the creative direction and production of this campaign, I successfully communicated our product’s premium quality and convenience 
+Thus, this successful transition pivoted the brand from a service model to a scalable product-based business.
+                  </p>
+              </div>
 
-      {/* Two Images Side by Side Section */}
-      <div className="flex flex-col md:flex-row justify-center gap-8 pb-12">
-        <Image
-          src="/AcaiTruck-Shop.JPG"
-          alt="The Acai Truck Poster 2"
-          width={314}
-          height={300}
-          className="h-auto object-contain"
-        />
-        <Image
-          src="/AcaiTruck-P4.png"
-          alt="The Acai Truck Poster 3"
-          width={300}
-          height={300}
-          className="h-auto object-contain"
-        />
-        <Image
-          src="/AcaiTruck-P5.png"
-          alt="The Acai Truck Poster 1"
-          width={300}
-          height={500}
-          className="h-auto object-contain"
-        />
-      </div>
-
-      {/* Section Title */}
-      <div className="text-center">
-        <h2 className="text-2xl font-semibold uppercase tracking-wide p-4">
-          Our Menu
-        </h2>
-      </div>
-
-      <div className="flex justify-center pb-12">
-        <div className="flex items-center space-x-8">
-          <Image
-            src="/AcaiTruck-Menu.png"
-            alt="Acai Truck Menu"
-            width={408}
-            height={300}
-            className="h-auto object-contain"
-          />
-
-          {/* Right Side: Three Stacked Images */}
-          <div className="flex flex-col gap-4">
-            <Image
-              src="/AcaiTruck-Acai.jpg"
-              alt="Acai Bowl"
-              width={496}
-              height={200}
-              className="h-auto object-contain"
-            />
-            <Image
-              src="/AcaiTruck-Waffles.jpg"
-              alt="Waffles"
-              width={496}
-              height={400}
-              className="h-auto object-contain"
-            />
-          </div>
-        </div>
-      </div>
-
-      {/* Section Title */}
-      <div className="text-center">
-        <h2 className="text-red-bright text-2xl font-nooksbold uppercase tracking-wide p-4">
-          Our Promotional Posters
-        </h2>
-      </div>
-
-      {/* Two Images Side by Side Section */}
-      <div className="flex flex-col md:flex-row justify-center gap-8 pb-12">
-        <Image
-          src="/AcaiTruck-P2.png"
-          alt="The Acai Truck Poster 2"
-          width={300}
-          height={300}
-          className="h-auto shadow-md"
-        />
-        <Image
-          src="/AcaiTruck-P3.png"
-          alt="The Acai Truck Poster 3"
-          width={300}
-          height={300}
-          className="h-auto shadow-md"
-        />
-        <Image
-          src="/AcaiTruck-P1.png"
-          alt="The Acai Truck Poster 1"
-          width={300}
-          height={300}
-          className="h-auto shadow-md"
-        />
-      </div>
-
-      {/* Section Title */}
-      <div className="text-center">
-        <h2 className="text-2xl font-semibold uppercase tracking-wide p-4">
-          Our Retail Product
-        </h2>
-      </div>
+              </div>
 
       {/* Images Grid */}
-      <div className="flex justify-center pb-12">
+      <div className="flex justify-center  p-4">
         <div className="flex items-center space-x-8">
           {/* Video Section */}
           <iframe
@@ -231,7 +160,178 @@ const AcaiTruck: React.FC = () => {
             />
           </div>
         </div>
+        </div>
+
+
+      <div className="flex flex-col lg:flex-row justify-center pt-8">
+          <div className="lg:w-8/12 font-adonis text-xl leading-relaxed pt-0 ">
+          <h2 className="text-red-bright text-2xl font-nooksbold uppercase tracking-wide ">
+                Our First Flagship Store
+              </h2>
+                  <p className="lg:w-7/10">
+Following a significant surge in retail sales, we capitalized on that market validation by opening our first permanent flagship cafe. 
+This allowed us to deepen our brand presence and increase customer lifetime value. My role spanned the design and development —from site selection and interior design to menu engineering. 
+By strategically integrating high-margin offerings like specialty coffee and waffles alongside our signature acai, I optimized the revenue mix and established a sustainable, scalable operational model.
+                  </p>
+              </div>
+              </div>
+
+
+
+
+      
+      {/* 1st Content Section */}
+      <div className="flex justify-center items-center p-4">
+            <div className="text-center">
+              <h2 className="text-2xl text-red-bright font-nooksbold uppercase tracking-wide p-4">
+                Our Store Front
+              </h2>
+              <div className="grid grid-cols-3 gap-8 pt-4 ">
+                <Image
+                src="/AcaiTruck-Shop.JPG"
+                alt="The Acai Truck Poster 2"
+                width={300}
+                height={300}
+                className="h-auto shadow-md"
+                />
+                <Image
+                src="/AcaiTruck-P4.png"
+                alt="The Acai Truck Poster 3"
+                height={300}
+                width={300}
+                className="h-auto object-contain"
+                />
+                <Image
+                src="/AcaiTruck-P5.png"
+                alt="The Acai Truck Poster 1"
+                width={300}
+                height={300}
+                className="h-auto object-contain"
+              />
+                
+              </div>
+            </div>
       </div>
+
+
+      <div className="flex justify-center items-center p-4">
+            <div className="text-center">
+              <h2 className="text-2xl text-red-bright font-nooksbold uppercase tracking-wide p-4">
+                Our Menu
+              </h2>
+      <div className=" grid grid-cols-2 gap-8 pt-4 ">
+        <div className="flex justify-center">
+          <Image
+            src="/AcaiTruck-Menu.png"
+            alt="Acai Truck Menu"
+            width={375}
+            height={200}
+            className="h-auto object-contain pl-4"
+          />
+          </div>
+                <div className="flex justify-center items-center">
+                  <div className="flex flex-col gap-4">
+            <Image
+              src="/AcaiTruck-Acai.jpg"
+              alt="Acai Bowl"
+              width={460}
+              height={200}
+              className="h-auto object-contain pr-4"
+            />
+            <Image
+              src="/AcaiTruck-Waffles.jpg"
+              alt="Waffles"
+              width={460}
+              height={400}
+              className="h-auto object-contain pr-4"
+            />
+          </div>
+        </div>
+      </div>
+      </div>
+      </div>
+
+
+
+            {/* beginning Content Section */}
+              <div className="flex flex-col lg:flex-row justify-center pt-8">
+          <div className="lg:w-8/12 font-adonis text-xl leading-relaxed pt-0 ">
+          <h2 className="text-red-bright text-2xl font-nooksbold uppercase tracking-wide ">
+                Vending machine
+              </h2>
+                  <p className="lg:w-7/10">
+                  More recently, I spearheaded our expansion into automated retail with the launch of Singapore’s first acai vending machine. T
+                  his initiative was a strategic response to the rising demand for grab-and-go nutrition. I was responsible for the graphics of our vending machine. 
+                  This concept serves as a scalable, low-overhead model that allows us to penetrate high-traffic locations like gyms, offices, and transport hubs 
+                  where a full cafe wouldn't be feasible
+                  </p>
+              </div>
+              </div>
+
+        <div className="flex justify-center items-center p-4">
+              <div className="grid grid-cols-3 gap-4 pt-4 ">
+                <div className="col-span-1">
+                <Image
+                src="/AcaiTruck-vending.JPG"
+                alt="The Acai Truck Poster 2"
+                width={300}
+                height={300}
+                className="h-auto shadow-md col-span-2"
+                />
+                </div>
+                <div className="col-span-2">
+                <Image
+                src="/AcaiTruck-vending2.png"
+                alt="The Acai Truck Poster 3"
+                height={200}
+                width={600}
+                className="h-auto object-contain"
+                />
+                </div>
+
+                
+              </div>
+            </div>
+
+
+      
+
+
+
+      <div className="flex justify-center items-center p-4">
+            <div className="text-center">
+              <h2 className="text-2xl text-red-bright font-nooksbold uppercase tracking-wide p-4">
+                Our Promotional Posters
+              </h2>
+              <div className="grid grid-cols-3 gap-8 pt-4 ">
+                <Image
+                src="/AcaiTruck-P2.png"
+                alt="The Acai Truck Poster 2"
+                width={300}
+                height={300}
+                className="h-auto shadow-md"
+                />
+                <Image
+                src="/AcaiTruck-P3.png"
+                alt="The Acai Truck Poster 3"
+                width={300}
+                height={300}
+                className="h-auto shadow-md"
+                />
+                <Image
+                src="/AcaiTruck-P1.png"
+                alt="The Acai Truck Poster 1"
+                width={300}
+                height={300}
+                className="h-auto shadow-md"
+              />
+                
+              </div>
+            </div>
+      </div>
+      
+
+      
 
       {/* Section Title */}
       <div className="text-center">
@@ -243,6 +343,7 @@ const AcaiTruck: React.FC = () => {
       {/* Add content for events if needed */}
       
     </div>
+
   );
 };
 
