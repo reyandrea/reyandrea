@@ -17,8 +17,10 @@ export default function Home() {
 
 
   return (
+    <div>
     
-    <div className="w-screen bg-dark-white text-red-dark dark:bg-light-white dark:text-dark-blue">
+
+    <div className="pb-[10vh] w-screen bg-dark-white text-red-dark dark:bg-light-white dark:text-dark-blue">
       
       <Hero/>
 
@@ -36,6 +38,8 @@ export default function Home() {
         ))}
       </div>
       </div>
+      <div className="text-center text-xl font-nooksbold pt-24">more comming soon...</div>
+    </div>
     </div>
   );
 }

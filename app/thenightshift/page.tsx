@@ -14,17 +14,29 @@ const TNS: React.FC = () => {
         <div className="font-adonis text-xl leading-relaxed pt-4">
           <p>
             The Night Shift by SUTD Productions is a creative YouTube series
-            showcasing life at the Singapore University of Technology and Design
-            (SUTD). The series features a mix of entertaining and informative
-            content, often spotlighting student activities, organizations, and
-            events. It provides insights into campus culture with humor and
-            storytelling. For instance, episodes explore topics like favorite
-            supper spots near SUTD, student clubs such as the Cat Appreciation
-            Team, and cultural events like Ramadan with the SUTD Muslim Society&#39;s​.
+            showcasing life at SUTD. The series features a mix of entertaining and informative
+            content which highlights student activities, organizations, and
+            events.
+            <br />  
+            <span className="small-break"></span>
+            
+            My involvement spanned the entire production pipeline— from creative direction
+            and hosting to videography and postproduction editing. My approach was driven 
+            by a deep passion for content creation and storytelling.           
+            I didn’t just want to document campus life, I wanted to create shareable, thumb–stopping content. 
+            
             <br />
+            <span className="small-break"></span>
+
+            I focused on highlighting SUTD’s vibrant campus culture via student–centric narratives 
+            and leveraging platform specific trends and high–energy editing to maximize viewer retention. 
+            Whether coordinating with student organizations or scouting local supper spots, 
+            every episode aims to increase campus visibility and fostered community engagement.
             <br />
-            If you&apos;d like to explore episodes, you can find the series on their
-            official YouTube playlist​.
+            <span className="small-break"></span>
+            If you’d like to explore episodes, you can find the series on our
+            official YouTube playlist​ 
+            <a href="https://youtube.com/playlist?list=PLaWOuRIztD2GqnPc68BqNR2QOnqqu-_OE&si=ZvX2oWqmjZrgrFYVhttps://youtube.com/playlist?list=PLaWOuRIztD2GqnPc68BqNR2QOnqqu-_OE&si=ZvX2oWqmjZrgrFYV" target="_blank" rel="noopener" className="text-red-bright"> here.</a>
           </p>
         </div>
       </div>
@@ -37,6 +49,7 @@ const TNS: React.FC = () => {
             src="/TNS-EP1.jpeg"
             alt="The Night Shift Episode 1"
             width={400}
+            height={300}
             className="h-auto object-contain"
           />
         </div>
@@ -45,6 +58,7 @@ const TNS: React.FC = () => {
             src="/TNS-EP2.jpeg"
             alt="The Night Shift Episode 2"
             width={400}
+            height={300}
             className="h-auto object-contain"
           />
         </div>
@@ -53,6 +67,7 @@ const TNS: React.FC = () => {
             src="/TNS-EP3.jpeg"
             alt="The Night Shift Episode 3"
             width={400}
+            height={300}
             className="h-auto object-contain"
           />
         </div>

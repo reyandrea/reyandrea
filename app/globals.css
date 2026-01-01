@@ -19,8 +19,15 @@
   --dark-blue: #84191E;
 }
 
-
-
+.footer-spacer {
+    height: 50vh; /* 50% of the screen height */
+    display: block;
+    width: 100%;
+  }
+.small-break { 
+    display: block; 
+    margin-top: 0.5em; /* Adjust this value for the desired space */
+  }
 
 /* For Webkit-based browsers (Chrome, Safari, etc.) */
 ::-webkit-scrollbar {
