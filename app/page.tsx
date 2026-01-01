@@ -39,7 +39,7 @@ export default function Home() {
         ))}
       </div>
       </div>
-      <div className="text-center text-xl font-nooksbold pt-24">more comming soon...</div>
+      <div className="text-center text-xl font-nooksbold pt-24">more coming soon...</div>
     </div>
     </div>
   );

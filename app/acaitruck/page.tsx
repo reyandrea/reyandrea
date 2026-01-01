@@ -260,8 +260,8 @@ By strategically integrating high-margin offerings like specialty coffee and waf
                 Vending machine
               </h2>
                   <p className="lg:w-7/10">
-                  More recently, I spearheaded our expansion into automated retail with the launch of Singapore’s first acai vending machine. T
-                  his initiative was a strategic response to the rising demand for grab-and-go nutrition. I was responsible for the graphics of our vending machine. 
+                  More recently, I spearheaded our expansion into automated retail with the launch of Singapore’s first acai vending machine. 
+                  This initiative was a strategic response to the rising demand for grab-and-go nutrition. I was responsible for the graphics of our vending machine. 
                   This concept serves as a scalable, low-overhead model that allows us to penetrate high-traffic locations like gyms, offices, and transport hubs 
                   where a full cafe wouldn't be feasible
                   </p>

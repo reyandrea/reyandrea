@@ -54,7 +54,7 @@ It also includes a dashboard providing high–level insights into trainer utiliz
             <div className="mb-4"><span className="text-dark-blue">Frontend Architecture: </span> 
           Engineered a responsive ReactJS SPA utilizing functional components, hooks for state management, and AJAX for real-time, asynchronous data synchronization.</div>
 
-          <div className="mb-4"><span className="text-dark-blue">Backend and API Design: </span> Developed a RESTful API via Node.js, Express.js</div>
+          <div className="mb-4"><span className="text-dark-blue">Backend and API Design: </span> Developed a RESTful API via Node.js and Express.js</div>
 
           <div className="mb-4"><span className="text-dark-blue">Database Schema: </span> Architected a scalable MongoDB schema optimized for high-read and write performance, structured to cross–reference trainer competencies with complex workshop requirements.</div>
         </p>
