@@ -15,7 +15,7 @@ const iot: React.FC = () => {
 
 
                   <p className="lg:w-7/10">
-                  For this project, we designed and implemented a scalable, end-to-end IoT and Cloud solution to 
+                  For this project, we designed and implemented a scalable, end–to–end IoT and Cloud solution to 
                   retrofit legacy washing machines with smart capabilities to improve operational efficiency 
                   for laundromat owners and convenience for customers. 
                   One focus was our business pitch in the DELL Innovation Competition where we placed 2nd. 
@@ -90,11 +90,11 @@ const iot: React.FC = () => {
                         <div className="col-span-2 text-left font-adonis text-xl leading-relaxed">
                 <div className="mb-2"><span className="text-dark-blue font-nooksbold uppercase">Universal Retrofitting: 
                   <br/></span> 
-                  The hardware solution was designed as a non-intrusive retrofit for 
+                  The hardware solution was designed as a non–intrusive retrofit for 
                   legacy <br/> machines
                   by using a Raspberry Pi as a central gateway 
                   and MQTT broker. <br/>
-                  I integrated Shelly Plus Plugs for power-based 
+                  I integrated Shelly Plus Plugs for power–based 
                   cycle detection via a 
                   <br/>threshold to distinguish between active and idle states.
                   <br/>For door state detection, we used an ESP32 microcontroller paired with 
@@ -143,9 +143,9 @@ const iot: React.FC = () => {
 
                   <p className="lg:w-7/10">
                   I architected a robust, scalable cloud backend leveraging AWS IoT Core as the primary gateway for secure device connectivity and message routing. 
-                  Telemetry data is transmitted via MQTT/TLS from edge devices to the cloud where it is processed through an AWS EC2 (Ubuntu) instance hosting the application’s API layer and backend logic. 
-                  For data persistence, I implemented a dual-table architecture using AWS RDS (PostgreSQL) using JSONB format to manage both real-time machine status and extensive historical logs for business intelligence. 
-                  To support proactive maintenance, I integrated AWS Lambda and AWS Simple Email Service (SES), which automatically trigger and deliver email alerts to business owners whenever abnormal power readings
+                  Telemetry data is transmitted via MQTT–TLS from edge devices to the cloud where it is processed through an AWS EC2 via Ubuntu instance hosting the application’s API layer and backend logic. 
+                  For data persistence, I implemented a dual–table architecture using AWS RDS PostgreSQL using JSONB format to manage both real–time machine status and extensive historical logs for business intelligence. 
+                  To support proactive maintenance, I integrated AWS Lambda and AWS Simple Email Service which automatically triggers and deliver email alerts to business owners whenever abnormal power readings
                   are detected by the IoT message broker
 
                 </p><br/>
@@ -155,8 +155,8 @@ const iot: React.FC = () => {
 
                 <p className="lg:w-7/10">
                   To provide granular insights into wash cycles, I developed a machine learning pipeline using a Random Forest Classifier trained on an AWS EC2 instance. 
-                  I engineered features from raw power telemetry by applying Savitzky-Golay smoothing and extracting metrics like signal derivative and oscillation range across sliding time windows. 
-                  This model achieved 92% accuracy in identifying four operational states: Idle, Washing, Rinsing, and Spinning. 
+                  I engineered features from raw power telemetry by applying Savitzky–Golay smoothing and extracting metrics like signal derivative and oscillation range across sliding time windows. 
+                  This model achieved high accuracy in identifying four operational states: Idle, Washing, Rinsing, and Spinning. 
                   Leveraging these real-time classifications and historical data, I implemented a predictive algorithm for Estimated Time of Completion, providing users with a dynamic countdown 
                   that optimizes their time and reduces facility congestion.
 

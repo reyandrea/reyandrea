@@ -6,7 +6,7 @@ import React from "react";
 const AcaiTruck: React.FC = () => {
   return (
 
-    <div>
+    <div className=" p-8 ">
 
       
       {/* intro Content Section */}
@@ -40,7 +40,9 @@ const AcaiTruck: React.FC = () => {
                 />
               </div>
             </div>
+            
           </div>
+          
 
           
       {/* executive summary Content Section */}
@@ -48,12 +50,12 @@ const AcaiTruck: React.FC = () => {
           <div className="lg:w-8/12 font-adonis text-xl leading-relaxed pt-0 ">
 
 
-                  <p className="lg:w-7/10">
-                  As Co-Founder and Managing Partner, I have spearheaded the strategic evolution of our brand from a service-oriented model into a scalable F&B enterprise. 
-                  By overseeing the end-to-end product lifecycle—from R&D to a successful retail debut at Pick & Go—I facilitated a pivotal shift toward a product-based business. 
-                  Following our retail success, I led the launch of our flagship cafe. I oversaw the breadth of the operation from maximizing high-margin revenue to increasing customer lifetime value. 
-                  Looking for new ways to approach retail, I launched Singapore’s first acai vending machine concept. This innovation focused on using F&B automation to create a low-overhead, scalable business. 
-                  This experience taught me the "founder’s mindset"—thriving in fast-paced environments, managing shifting priorities, and building a brand from the ground up.
+                  <p>
+                  As Co-Founder and Managing Partner, I have spearheaded the strategic evolution of our brand from a service-oriented model into a scalable FnB enterprise. 
+                  By overseeing the end-to-end product lifecycle—from RnD to a successful retail debut at Pick n Go—I facilitated a pivotal shift toward a product based business. 
+                  Following our retail success, I led the launch of our flagship cafe. I oversaw the breadth of the operation from maximizing high margin revenue to increasing customer lifetime value. 
+                  Looking for new ways to approach retail, I launched Singapore’s first acai vending machine concept. This innovation focused on using automation to create a low overhead, scalable business. 
+                  This experience taught me the founder’s mindset —thriving in fast–paced environments, managing shifting priorities, and building a brand from the ground up.
 
                 </p>
               </div>
@@ -73,7 +75,7 @@ const AcaiTruck: React.FC = () => {
               </div>
               </div>
 
-        <div className="flex justify-center items-center p-4">
+        <div className="flex justify-center items-center">
               <div className="grid grid-cols-7 gap-4 pt-4 ">
                 <div className="col-span-3">
                 <Image
@@ -115,9 +117,9 @@ const AcaiTruck: React.FC = () => {
                 Our First retail product
               </h2>
                   <p className="lg:w-7/10">
-I drove our expansion by launching our first retail product line. I managed the product lifecycle— from R&D and Standard Operating Procedures to marketing and logistics. 
-By recognizing a growing demand for accessibility and end-to-end management, this led to a seamless launch into the retail market at Pick & Go.
-By leading the creative direction and production of this campaign, I successfully communicated our product’s premium quality and convenience 
+I drove our expansion by launching our first retail product line. I managed the product lifecycle— from RnD and Standard Operating Procedures to marketing and logistics. 
+By recognizing a growing demand for accessibility and end–to–end management, this led to a seamless launch into the retail market at Pick n Go.
+By leading the creative direction and production of this campaign, I successfully communicated our product’s premium quality and convenience.
 Thus, this successful transition pivoted the brand from a service model to a scalable product-based business.
                   </p>
               </div>
@@ -171,7 +173,7 @@ Thus, this successful transition pivoted the brand from a service model to a sca
                   <p className="lg:w-7/10">
 Following a significant surge in retail sales, we capitalized on that market validation by opening our first permanent flagship cafe. 
 This allowed us to deepen our brand presence and increase customer lifetime value. My role spanned the design and development —from site selection and interior design to menu engineering. 
-By strategically integrating high-margin offerings like specialty coffee and waffles alongside our signature acai, I optimized the revenue mix and established a sustainable, scalable operational model.
+By strategically integrating high margin offerings like specialty coffee and waffles alongside our signature acai, I optimized the revenue mix and established a sustainable, scalable operational model.
                   </p>
               </div>
               </div>
@@ -261,9 +263,9 @@ By strategically integrating high-margin offerings like specialty coffee and waf
               </h2>
                   <p className="lg:w-7/10">
                   More recently, I spearheaded our expansion into automated retail with the launch of Singapore’s first acai vending machine. 
-                  This initiative was a strategic response to the rising demand for grab-and-go nutrition. I was responsible for the graphics of our vending machine. 
-                  This concept serves as a scalable, low-overhead model that allows us to penetrate high-traffic locations like gyms, offices, and transport hubs 
-                  where a full cafe wouldn't be feasible
+                  This initiative was a strategic response to the rising demand for grab–and–go nutrition. I was responsible for the graphics of our vending machine. 
+                  This concept serves as a scalable, low overhead model that allows us to penetrate high traffic locations like gyms, offices, and transport hubs 
+                  where a full cafe wouldn’t be feasible
                   </p>
               </div>
               </div>
