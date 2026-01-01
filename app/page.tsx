@@ -9,6 +9,7 @@ export default function Home() {
   const cardData = [
     { imageSrc: "/AcaiTruck-Thumbnail.png", title: "THE ACAI TRUCK", href: "/acaitruck" },
     { imageSrc: "/TNS-EP2.jpeg", title: "SUTD PRODUCTION: THE NIGHT SHIFT", href: "/thenightshift" },
+  { imageSrc: "/iot_layout.png", title: "CLOUD + IOT DEVELOPMENT", href: "/iot" },
     { imageSrc: "/Mern-Thumbnail.png", title: "MERN APP DEVELOPMENT", href: "/mern" },
     { imageSrc: "/Recall-Thumbnail.png", title: "ASSEMBLY GAME DEVELOPMENT", href: "/assembly" },
     { imageSrc: "/Butterfly2.jpg", title: "PHOTOGRAPHY", href: "/photography" },
